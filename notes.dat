@@ -1,0 +1,37 @@
+What we hope to gain from this test
+The file clicks.csv contains data about clicks received by Destinia from a hotel metasearch portal during the period of one week.
+Some examples of hotel metasearch portals are hotelscan.com, kayak.com, trivago.com, etc. 
+If you are not familiar with these portals, please try them out to see how they work. 
+
+The dataset
+The file includes the following fields:
+
+date - the date of the click
+remite_id - the geographical market of the portal (eg kayak.co.uk, kayak.fr, kayak.de, etc)
+checkin - the checkin date in the original user search
+checkout - the checkout date in the original user search
+adults - the number of adults in the original user search
+children - the number of children in the original user search
+hotel_id - the hotel clicked on by the user
+sale - whether or not the click eventually resulted in a hotel reservation in Destinia
+
+
+You can download the dataset here: https://otcdn.com/headers/misc/ml_test.zip 
+To unzip the dataset y
+ou should use this password n7JBzxP8 
+
+Are you up to the challenge?
+We simply want you to demonstrate your skills as a professional machine learning developer by analyzig and creating a model for this dataset:
+Derive as many features from this data as you think are relevant
+Build a model in R or Python to estimate the probability that given the above data, any future single click will result in a reservation
+Suggest any other features not provided above which you think could be useful for the model.
+
+
+Solution specifications
+Use R or Python to build the model
+You can use the libraries you want
+Provide all comands an steps to reproduce the training and model execution
+Provide any details you consider necessary to comprehend your solution
+Everything must be compressed in a single file and emailed to jobtests@destinia.com.
+
+
